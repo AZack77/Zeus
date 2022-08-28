@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="row padded_row">
+        <div class="chat_window">
+          <div class="top_menu">
+            <div class="title">Feedback After workshop</div>
+          </div>
+        </div>
+      </div>
+      <form action='insert.php' method="post">
+      <div class="box">
+        <div class="question">
+            <h4> 1.Was the program good and useful ?</h4>
+            <p class="yes">
+              <input type="radio" name="o1" class="radio" value="Yes" />Yes
+            </p>
+            <label class="yes">
+              <input type="radio" name="o1" class="radio" value="No" />No
+            </label>
+            <p class="yes">
+              <input type="radio" name="o1" class="radio" value="Partially" />Partially
+            </p>
+              <textarea required class="form-group"  id="o1d" cols="50" rows="5" placeholder="Description" name="o1d" required></textarea>
+            
+          </div>
+          <div class="question">
+            <h4> 2.Did you understand most of the topics/information shared?</h4>
+            <p class="yes">
+              <input type="radio" name="o2" class="radio" value="Yes" />Yes
+            </p>
+            <label class="yes">
+              <input type="radio" name="o2" class="radio" value="No" />No
+            </label>
+            <p class="yes">
+              <input type="radio" name="o2" class="radio" value="Partially" />Partially
+            </p>
+              <textarea required class="form-group"  id="o2d" cols="50" rows="5" placeholder="Description" name="o2d" required></textarea>
+            
+          </div>
+          <div class="question">
+            <h4> 3.Did you enjoy the activities?</h4>
+            <p class="yes">
+              <input type="radio" name="o3" class="radio" value="Yes" />Yes
+            </p>
+            <label class="yes">
+              <input type="radio" name="o3" class="radio" value="No" />No
+            </label>
+            <p class="yes">
+              <input type="radio" name="o3" class="radio" value="Partially" />Partially
+            </p>
+              <textarea required class="form-group"  id="o3d" cols="50" rows="5" placeholder="Description" name="o3d" required></textarea>
+            
+          </div>
+          <div class="question">
+            <h4 > 4.Are the presentations/videos/work materials good to see, read and easy to understand?</h4>
+            <p class="yes">
+              <input type="radio" name="o4" class="radio" value="Yes" />Yes
+            </p>
+            <label class="yes">
+              <input type="radio" name="o4" class="radio" value="No" />No
+            </label>
+            <p class="yes">
+              <input type="radio" name="o4" class="radio" value="Partially" />Partially
+            </p>
+              <textarea required class="form-group"  id="o4d" cols="50" rows="5" placeholder="Description" name="o4d" required></textarea>
+            
+          </div>
+          <div class="question">
+            <h4> 5.Has your knowledge increased about different career paths/job opportunities/preparation?</h4>
+            <p class="yes" >
+              <input type="radio" name="o5" class="radio" value="Yes" />Yes
+            </p>
+            <label class="yes" >
+              <input type="radio" name="o5" class="radio" value="No" />No
+            </label>
+            <p >
+              <input type="radio" name="o5" class="radio" value="Partially" />Partially
+            </p>
+              <textarea required class="form-group""  id="o5d" cols="50" rows="5" placeholder="Description" name="o5d" required></textarea>
+            
+          </div>
+          <div class="question">
+            <h4> 6. Do you have better clarity now on your next steps than before the program?</h4>
+            <p class="yes">
+              <input type="radio" name="o6" class="radio" value="Yes" />Yes
+            </p>
+            <label class="yes">
+              <input type="radio" name="o6" class="radio" value="No" />No
+            </label>
+            <p class="yes">
+              <input type="radio" name="o6" class="radio" value="Partially" />Partially
+            </p>
+              <textarea required class="form-group"  id="o6d" cols="50" rows="5" placeholder="Description" name="o6d" required></textarea>
+            
+          </div>
+          <div class="question">
+            <h4> 7. Do you have better clarity now on your juniors / other friends too?</h4>
+            <p class="yes">
+              <input type="radio" name="o7" class="radio" value="Yes" />Yes
+            </p>
+            <p class="yes">
+              <input type="radio" name="o7" class="radio" value="No" />No
+            </p>
+           
+              <textarea required class="form-group"  id="o7d" cols="50" rows="5" placeholder="Description" name="o7d" required></textarea>
+            
+          </div>
+          <div class="question">
+            <h4> 8. Will you reach out to us if you have questions?</h4>
+            <p class="yes">
+              <input type="radio" name="o8" class="radio" value="Yes" />Yes
+            </p>
+            <p class="yes">
+              <input type="radio" name="o8" class="radio" value="No" />No
+            </p>
+           
+              <textarea required class="form-group"  id="o8d" cols="50" rows="5" placeholder="Description" name="o8d" required></textarea>
+            
+          </div>
+          <div class="question">
+            <h4> 9.is it easy for you to set your own goals now? can you do it?</h4>
+            <p >
+              <input type="radio" name="o9" class="radio" value="Yes" />Yes
+            </p>
+            <p class="yes" >
+              <input type="radio" name="o9" class="radio" value="No" />No
+            </p>
+           
+              <textarea required class="form-group"  id="o9d" cols="50" rows="5" placeholder="Description" name="o9d" required></textarea>
+            
+          </div>
+          <div class="question">
+            <h4> 10.Has your career choices changed with new or more options now?</h4>
+              <textarea required class="form-group"  id="o10" cols="50" rows="5" placeholder="Description" name="o10"></textarea>
+          </div>
+          <div class="question">
+            <h4> 11.Are you more aware and confident about your career choices as well as decision making now</h4>
+              <textarea required class="form-group"  id="o11" cols="50" rows="5" placeholder="Description" name="o11" required></textarea>
+          </div>
+          <div class="question">
+            <h4> 12. Which part of the session you enjoyed the most?</h4>
+              <textarea required class="form-group"  id="o12
+              " cols="50" rows="5" placeholder="Description" name="012" required></textarea>
+          </div>
+          <div class="question">
+            <h4> 13.Overall rating for the workshop?Rating scale 1-10</h4>
+              <textarea required class="form-group"  id="o13" cols="50" rows="5" placeholder="Description" name="013" required></textarea>
+          </div>
+         <button class="submit">Submit</button>
+        
+        </div>
+      <!-- </div>
+    </div> -->
+  </form>
+  </body>
+  
+</html>

@@ -1,0 +1,108 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #edeff2;
+	font-family: 'Calibri', 'Roboto', sans-serif;
+}
+
+.row.padded_row,
+.row.padded_row > div {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/* layout and common global classes */
+/* ---------------------------------------------------------------------- */
+
+.chat_window {
+	position: relative;
+	left: 5%;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+	background-color: #f8f8f8;
+	overflow: hidden;
+    width:90%;
+}
+.box{
+	height: 90%;
+	/* padding-top: 20%; */
+	box-sizing: border-box;
+}
+.top_menu {
+	background-color: #fff;
+	padding: 13px 0px;
+	box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+}
+
+.top_menu .title {
+	text-align: center;
+	color: #337ab7;
+	font-size: 20px;
+}
+.box{
+    position: relative;
+    left: 5%;
+    width: 90%;
+    margin-top: 5px;
+    /* padding-top: -100px; */
+    background-color: rgb(231, 231, 231);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+.question
+{
+    color: #337ab7;
+    position: relative;
+    left: 100px;
+}
+h4{
+    margin-left: 200px;
+}
+p
+{
+    color: black;
+    left: 18px;
+    margin-left: 200px;
+}
+.description
+{
+    border: #337ab7;
+    box-shadow:0 10px 20px rgba(0, 0, 0, 0.15); 
+}
+button{
+    margin-left: 42%;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    border: 0;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: gray; 
+    color: white;
+}
+textarea{
+    color: black;
+    left: 18px;
+    margin-left: 200px;
+}
+.yes
+{
+    color: black;
+    left: 18px;
+    margin-left: 200px;
+}
+.admin
+{
+    position: absolute;
+    right: 65px;
+    background-color: gray;
+}
+.admin:hover
+{
+    background-color: #a2c2f3;
+}

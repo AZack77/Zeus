@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      .show {
+        margin-left: 42%;
+        transition-duration: 0.4s;
+        border-radius: 5px;
+        border: 0;
+        font-size: large;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login-form">
+      <h1>Login form</h1>
+      <form action="" method="post" id="admin">
+        <div class="box">
+          <p>Admin name</p>
+          <input
+            type="text"
+            placeholder="Username"
+            name="username"
+            id="name"
+            required
+          />
+          <p>Email</p>
+          <input
+            type="email"
+            placeholder="Email"
+            name="email"
+            id="email"
+            required
+          />
+          <a href="last.html"><button class="show">Submit</button></a>
+        </div>
+      </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  </body>
+</html>
